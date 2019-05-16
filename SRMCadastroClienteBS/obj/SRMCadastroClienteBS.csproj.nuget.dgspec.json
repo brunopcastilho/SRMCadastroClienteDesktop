@@ -1,0 +1,321 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Bruno\\Programacao\\repos\\SRMCadastroClieneDesktop\\SRMCadastroClienteBS\\SRMCadastroClienteBS.csproj": {}
+  },
+  "projects": {
+    "D:\\Bruno\\Programacao\\repos\\SRMCadastroClieneDesktop\\SRMCadastroClientCommon\\SRMCadastroClientCommon.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Bruno\\Programacao\\repos\\SRMCadastroClieneDesktop\\SRMCadastroClientCommon\\SRMCadastroClientCommon.csproj",
+        "projectName": "SRMCadastroClientCommon",
+        "projectPath": "D:\\Bruno\\Programacao\\repos\\SRMCadastroClieneDesktop\\SRMCadastroClientCommon\\SRMCadastroClientCommon.csproj",
+        "packagesPath": "C:\\Users\\casa\\.nuget\\packages\\",
+        "outputPath": "D:\\Bruno\\Programacao\\repos\\SRMCadastroClieneDesktop\\SRMCadastroClientCommon\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\casa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "LiveCharts": {
+              "target": "Package",
+              "version": "[0.9.7, )"
+            },
+            "LiveCharts.Wpf": {
+              "target": "Package",
+              "version": "[0.9.7, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
+            },
+            "System.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[2.0.2.45, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "System.Data.SQLite": {
+              "target": "Package",
+              "version": "[1.0.110, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "D:\\Bruno\\Programacao\\repos\\SRMCadastroClieneDesktop\\SRMCadastroClienteBS\\SRMCadastroClienteBS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Bruno\\Programacao\\repos\\SRMCadastroClieneDesktop\\SRMCadastroClienteBS\\SRMCadastroClienteBS.csproj",
+        "projectName": "SRMCadastroClienteBS",
+        "projectPath": "D:\\Bruno\\Programacao\\repos\\SRMCadastroClieneDesktop\\SRMCadastroClienteBS\\SRMCadastroClienteBS.csproj",
+        "packagesPath": "C:\\Users\\casa\\.nuget\\packages\\",
+        "outputPath": "D:\\Bruno\\Programacao\\repos\\SRMCadastroClieneDesktop\\SRMCadastroClienteBS\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\casa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "D:\\Bruno\\Programacao\\repos\\SRMCadastroClieneDesktop\\SRMCadastroClientCommon\\SRMCadastroClientCommon.csproj": {
+                "projectPath": "D:\\Bruno\\Programacao\\repos\\SRMCadastroClieneDesktop\\SRMCadastroClientCommon\\SRMCadastroClientCommon.csproj"
+              },
+              "D:\\Bruno\\Programacao\\repos\\SRMCadastroClieneDesktop\\SRMCadastroClienteDB\\SRMCadastroClienteDB.csproj": {
+                "projectPath": "D:\\Bruno\\Programacao\\repos\\SRMCadastroClieneDesktop\\SRMCadastroClienteDB\\SRMCadastroClienteDB.csproj"
+              },
+              "D:\\Bruno\\Programacao\\repos\\SRMCadastroClieneDesktop\\SRMCadastroClienteDomain\\SRMCadastroClienteDomain.csproj": {
+                "projectPath": "D:\\Bruno\\Programacao\\repos\\SRMCadastroClieneDesktop\\SRMCadastroClienteDomain\\SRMCadastroClienteDomain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "LiveCharts": {
+              "target": "Package",
+              "version": "[0.9.7, )"
+            },
+            "LiveCharts.Wpf": {
+              "target": "Package",
+              "version": "[0.9.7, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "System.Data.SQLite": {
+              "target": "Package",
+              "version": "[1.0.110, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "D:\\Bruno\\Programacao\\repos\\SRMCadastroClieneDesktop\\SRMCadastroClienteDB\\SRMCadastroClienteDB.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Bruno\\Programacao\\repos\\SRMCadastroClieneDesktop\\SRMCadastroClienteDB\\SRMCadastroClienteDB.csproj",
+        "projectName": "SRMCadastroClienteDB",
+        "projectPath": "D:\\Bruno\\Programacao\\repos\\SRMCadastroClieneDesktop\\SRMCadastroClienteDB\\SRMCadastroClienteDB.csproj",
+        "packagesPath": "C:\\Users\\casa\\.nuget\\packages\\",
+        "outputPath": "D:\\Bruno\\Programacao\\repos\\SRMCadastroClieneDesktop\\SRMCadastroClienteDB\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\casa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "D:\\Bruno\\Programacao\\repos\\SRMCadastroClieneDesktop\\SRMCadastroClientCommon\\SRMCadastroClientCommon.csproj": {
+                "projectPath": "D:\\Bruno\\Programacao\\repos\\SRMCadastroClieneDesktop\\SRMCadastroClientCommon\\SRMCadastroClientCommon.csproj"
+              },
+              "D:\\Bruno\\Programacao\\repos\\SRMCadastroClieneDesktop\\SRMCadastroClienteDomain\\SRMCadastroClienteDomain.csproj": {
+                "projectPath": "D:\\Bruno\\Programacao\\repos\\SRMCadastroClieneDesktop\\SRMCadastroClienteDomain\\SRMCadastroClienteDomain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[1.60.6, )"
+            },
+            "LiveCharts": {
+              "target": "Package",
+              "version": "[0.9.7, )"
+            },
+            "LiveCharts.Wpf": {
+              "target": "Package",
+              "version": "[0.9.7, )"
+            },
+            "Microsoft.CSharp": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "System.Data.SQLite": {
+              "target": "Package",
+              "version": "[1.0.110, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "D:\\Bruno\\Programacao\\repos\\SRMCadastroClieneDesktop\\SRMCadastroClienteDomain\\SRMCadastroClienteDomain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Bruno\\Programacao\\repos\\SRMCadastroClieneDesktop\\SRMCadastroClienteDomain\\SRMCadastroClienteDomain.csproj",
+        "projectName": "SRMCadastroClienteDomain",
+        "projectPath": "D:\\Bruno\\Programacao\\repos\\SRMCadastroClieneDesktop\\SRMCadastroClienteDomain\\SRMCadastroClienteDomain.csproj",
+        "packagesPath": "C:\\Users\\casa\\.nuget\\packages\\",
+        "outputPath": "D:\\Bruno\\Programacao\\repos\\SRMCadastroClieneDesktop\\SRMCadastroClienteDomain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\casa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "LiveCharts": {
+              "target": "Package",
+              "version": "[0.9.7, )"
+            },
+            "LiveCharts.Wpf": {
+              "target": "Package",
+              "version": "[0.9.7, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

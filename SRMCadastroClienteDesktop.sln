@@ -4,14 +4,22 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.28803.352
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SRMCadastroClienteDesktop", "SRMCadastroClieneDesktop\SRMCadastroClienteDesktop.csproj", "{E1F55A40-2718-4998-93F0-F97DA7EA1BF6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B0841F3E-AEA4-4E61-A8D1-C6C51CB2EC7F} = {B0841F3E-AEA4-4E61-A8D1-C6C51CB2EC7F}
+		{824BA2AD-42A0-48CA-96DC-809B7932E3AC} = {824BA2AD-42A0-48CA-96DC-809B7932E3AC}
+		{6C05EBB0-5BD2-4713-A7B6-8507556FD667} = {6C05EBB0-5BD2-4713-A7B6-8507556FD667}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SRMCadastroClienteDB", "SRMCadastroClienteDB\SRMCadastroClienteDB.csproj", "{09EB11A3-F371-4A10-AAB3-338B7BA1C846}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SRMCadastroClienteDB", "SRMCadastroClienteDB\SRMCadastroClienteDB.csproj", "{09EB11A3-F371-4A10-AAB3-338B7BA1C846}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SRMCadastroClientCommon", "SRMCadastroClientCommon\SRMCadastroClientCommon.csproj", "{B0841F3E-AEA4-4E61-A8D1-C6C51CB2EC7F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SRMCadastroClientCommon", "SRMCadastroClientCommon\SRMCadastroClientCommon.csproj", "{B0841F3E-AEA4-4E61-A8D1-C6C51CB2EC7F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6C05EBB0-5BD2-4713-A7B6-8507556FD667} = {6C05EBB0-5BD2-4713-A7B6-8507556FD667}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SRMCadastroClienteBS", "SRMCadastroClienteBS\SRMCadastroClienteBS.csproj", "{824BA2AD-42A0-48CA-96DC-809B7932E3AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SRMCadastroClienteBS", "SRMCadastroClienteBS\SRMCadastroClienteBS.csproj", "{824BA2AD-42A0-48CA-96DC-809B7932E3AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SRMCadastroClienteDomain", "SRMCadastroClienteDomain\SRMCadastroClienteDomain.csproj", "{6C05EBB0-5BD2-4713-A7B6-8507556FD667}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SRMCadastroClienteDomain", "SRMCadastroClienteDomain\SRMCadastroClienteDomain.csproj", "{6C05EBB0-5BD2-4713-A7B6-8507556FD667}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

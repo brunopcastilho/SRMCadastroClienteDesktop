@@ -1,0 +1,70 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Bruno\\Programacao\\repos\\SRMCadastroClieneDesktop\\SRMCadastroClienteDomain\\SRMCadastroClienteDomain.csproj": {}
+  },
+  "projects": {
+    "D:\\Bruno\\Programacao\\repos\\SRMCadastroClieneDesktop\\SRMCadastroClienteDomain\\SRMCadastroClienteDomain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Bruno\\Programacao\\repos\\SRMCadastroClieneDesktop\\SRMCadastroClienteDomain\\SRMCadastroClienteDomain.csproj",
+        "projectName": "SRMCadastroClienteDomain",
+        "projectPath": "D:\\Bruno\\Programacao\\repos\\SRMCadastroClieneDesktop\\SRMCadastroClienteDomain\\SRMCadastroClienteDomain.csproj",
+        "packagesPath": "C:\\Users\\casa\\.nuget\\packages\\",
+        "outputPath": "D:\\Bruno\\Programacao\\repos\\SRMCadastroClieneDesktop\\SRMCadastroClienteDomain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\casa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "LiveCharts": {
+              "target": "Package",
+              "version": "[0.9.7, )"
+            },
+            "LiveCharts.Wpf": {
+              "target": "Package",
+              "version": "[0.9.7, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

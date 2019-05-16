@@ -1,0 +1,14 @@
+D:\Bruno\Programacao\repos\SRMCadastroClieneDesktop\SRMCadastroClienteDB\bin\Release\netstandard2.0\SRMCadastroClienteDB.deps.json
+D:\Bruno\Programacao\repos\SRMCadastroClieneDesktop\SRMCadastroClienteDB\bin\Release\netstandard2.0\SRMCadastroClienteDB.dll
+D:\Bruno\Programacao\repos\SRMCadastroClieneDesktop\SRMCadastroClienteDB\bin\Release\netstandard2.0\SRMCadastroClienteDB.pdb
+D:\Bruno\Programacao\repos\SRMCadastroClieneDesktop\SRMCadastroClienteDB\bin\Release\netstandard2.0\SRMCadastroClientCommon.dll
+D:\Bruno\Programacao\repos\SRMCadastroClieneDesktop\SRMCadastroClienteDB\bin\Release\netstandard2.0\SRMCadastroClienteDomain.dll
+D:\Bruno\Programacao\repos\SRMCadastroClieneDesktop\SRMCadastroClienteDB\bin\Release\netstandard2.0\SRMCadastroClientCommon.pdb
+D:\Bruno\Programacao\repos\SRMCadastroClieneDesktop\SRMCadastroClienteDB\bin\Release\netstandard2.0\SRMCadastroClienteDomain.pdb
+D:\Bruno\Programacao\repos\SRMCadastroClieneDesktop\SRMCadastroClienteDB\obj\Release\netstandard2.0\SRMCadastroClienteDB.csprojAssemblyReference.cache
+D:\Bruno\Programacao\repos\SRMCadastroClieneDesktop\SRMCadastroClienteDB\obj\Release\netstandard2.0\SRMCadastroClienteDB.csproj.CoreCompileInputs.cache
+D:\Bruno\Programacao\repos\SRMCadastroClieneDesktop\SRMCadastroClienteDB\obj\Release\netstandard2.0\SRMCadastroClienteDB.AssemblyInfoInputs.cache
+D:\Bruno\Programacao\repos\SRMCadastroClieneDesktop\SRMCadastroClienteDB\obj\Release\netstandard2.0\SRMCadastroClienteDB.AssemblyInfo.cs
+D:\Bruno\Programacao\repos\SRMCadastroClieneDesktop\SRMCadastroClienteDB\obj\Release\netstandard2.0\SRMCadastroClienteDB.csproj.CopyComplete
+D:\Bruno\Programacao\repos\SRMCadastroClieneDesktop\SRMCadastroClienteDB\obj\Release\netstandard2.0\SRMCadastroClienteDB.dll
+D:\Bruno\Programacao\repos\SRMCadastroClieneDesktop\SRMCadastroClienteDB\obj\Release\netstandard2.0\SRMCadastroClienteDB.pdb

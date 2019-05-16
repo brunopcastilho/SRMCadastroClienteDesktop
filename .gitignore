@@ -1,11 +1,18 @@
 
-SRMCadastroClieneDesktop/obj/*
+SRMCadastroClieneDesktop/obj/Debug/*
+SRMCadastroClieneDesktop/obj/Release/*
 SRMCadastroClieneDesktop/bin/*
-SRMCadastroClientCommon/obj/*
+SRMCadastroClientCommon/obj/Debug/*
+SRMCadastroClientCommon/obj/Release/*
 SRMCadastroClientCommon/bin/*
-SRMCadastroClienteBS/obj/*
+SRMCadastroClienteBS/obj/Debug/*
+SRMCadastroClientCommon/obj/Release/*
 SRMCadastroClienteBS/bin/*
-SRMCadastroClienteDB/obj/*
+SRMCadastroClienteDB/obj/Debug/*
+SRMCadastroClientCommon/obj/Release/*
 SRMCadastroClienteDB/bin/*
-SRMCadastroClienteDomain/obj/*
+SRMCadastroClienteDomain/obj/Debug/*
+SRMCadastroClientCommon/obj/Release/*
 SRMCadastroClienteDomain/bin/*
+.vs/*
+packages/*
