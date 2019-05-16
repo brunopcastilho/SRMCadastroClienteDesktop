@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.352
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SRMCadastroClienteDesktop", "SRMCadastroClieneDesktop\SRMCadastroClienteDesktop.csproj", "{E1F55A40-2718-4998-93F0-F97DA7EA1BF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SRMCadastroClienteDB", "SRMCadastroClienteDB\SRMCadastroClienteDB.csproj", "{09EB11A3-F371-4A10-AAB3-338B7BA1C846}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SRMCadastroClientCommon", "SRMCadastroClientCommon\SRMCadastroClientCommon.csproj", "{B0841F3E-AEA4-4E61-A8D1-C6C51CB2EC7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SRMCadastroClienteBS", "SRMCadastroClienteBS\SRMCadastroClienteBS.csproj", "{824BA2AD-42A0-48CA-96DC-809B7932E3AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SRMCadastroClienteDomain", "SRMCadastroClienteDomain\SRMCadastroClienteDomain.csproj", "{6C05EBB0-5BD2-4713-A7B6-8507556FD667}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E1F55A40-2718-4998-93F0-F97DA7EA1BF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1F55A40-2718-4998-93F0-F97DA7EA1BF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1F55A40-2718-4998-93F0-F97DA7EA1BF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1F55A40-2718-4998-93F0-F97DA7EA1BF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09EB11A3-F371-4A10-AAB3-338B7BA1C846}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09EB11A3-F371-4A10-AAB3-338B7BA1C846}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09EB11A3-F371-4A10-AAB3-338B7BA1C846}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09EB11A3-F371-4A10-AAB3-338B7BA1C846}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0841F3E-AEA4-4E61-A8D1-C6C51CB2EC7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0841F3E-AEA4-4E61-A8D1-C6C51CB2EC7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0841F3E-AEA4-4E61-A8D1-C6C51CB2EC7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0841F3E-AEA4-4E61-A8D1-C6C51CB2EC7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{824BA2AD-42A0-48CA-96DC-809B7932E3AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{824BA2AD-42A0-48CA-96DC-809B7932E3AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{824BA2AD-42A0-48CA-96DC-809B7932E3AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{824BA2AD-42A0-48CA-96DC-809B7932E3AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C05EBB0-5BD2-4713-A7B6-8507556FD667}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C05EBB0-5BD2-4713-A7B6-8507556FD667}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C05EBB0-5BD2-4713-A7B6-8507556FD667}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C05EBB0-5BD2-4713-A7B6-8507556FD667}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {261A0388-9242-4B5E-B5C8-2F9B7FCC67F4}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,14 @@
+﻿<Window x:Class="SRMCadastroClieneDesktop.SRMCadastroClienteDesktop"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SRMCadastroClieneDesktop"
+        mc:Ignorable="d"
+        Title="SRMCadastroClienteDesktop" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="btnClient" Content="Clientes" HorizontalAlignment="Left" Height="50" Margin="31,40,0,0" VerticalAlignment="Top" Width="111" Click="BtnClient_Click"/>
+        <Button x:Name="btnProduct" Content="Produtos" HorizontalAlignment="Left" Height="50" Margin="183,40,0,0" VerticalAlignment="Top" Width="111" Click="BtnProduct_Click"/>
+        <Button x:Name="btnGraficos" Content="Gráficos" HorizontalAlignment="Left" Height="50" Margin="340,40,0,0" VerticalAlignment="Top" Width="111" Click="BtnGraficos_Click"/>
+    </Grid>
+</Window>

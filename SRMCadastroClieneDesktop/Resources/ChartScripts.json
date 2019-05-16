@@ -1,0 +1,6 @@
+{
+  "Scripts": {
+    "CLIENT_BY_SEGMENT": "SELECT SEGMENT,  COUNT(SEGMENT) FROM CLIENT GROUP BY  SEGMENT",
+    "CLIENT_BY_PRODUCT": "select p.id, p.name, count(idclient) from product p inner join client_product cp on p.id = cp.IDPRODUCT group by p.id, p.name"
+  }
+}

@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="1.60.6" />
+    <PackageReference Include="LiveCharts" Version="0.9.7" />
+    <PackageReference Include="LiveCharts.Wpf" Version="0.9.7" />
+    <PackageReference Include="Microsoft.CSharp" Version="4.5.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.5.0" />
+    <PackageReference Include="System.Data.SQLite" Version="1.0.110" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SRMCadastroClientCommon\SRMCadastroClientCommon.csproj" />
+    <ProjectReference Include="..\SRMCadastroClienteDomain\SRMCadastroClienteDomain.csproj" />
+  </ItemGroup>
+
+</Project>

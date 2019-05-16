@@ -1,0 +1,11 @@
+
+SRMCadastroClieneDesktop/obj/*
+SRMCadastroClieneDesktop/bin/*
+SRMCadastroClientCommon/obj/*
+SRMCadastroClientCommon/bin/*
+SRMCadastroClienteBS/obj/*
+SRMCadastroClienteBS/bin/*
+SRMCadastroClienteDB/obj/*
+SRMCadastroClienteDB/bin/*
+SRMCadastroClienteDomain/obj/*
+SRMCadastroClienteDomain/bin/*

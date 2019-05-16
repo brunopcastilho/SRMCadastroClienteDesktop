@@ -1,0 +1,74 @@
+﻿<Window x:Class="SRMCadastroClieneDesktop.Views.Clients"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SRMCadastroClieneDesktop.Views"
+        mc:Ignorable="d"
+        Title="Clients" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="btnFilter" Content="Filtrar" HorizontalAlignment="Left" Height="27" Margin="598,140,0,0" VerticalAlignment="Top" Width="151" RenderTransformOrigin="0.478,-1.992" Click="BtnFilter_Click"/>
+        <Button x:Name="btnNewClient" Content="Adicionar Cliente" HorizontalAlignment="Left" Height="27" Margin="598,387,0,0" VerticalAlignment="Top" Width="151" Click="BtnNewClient_Click"/>
+        <TextBox x:Name="txtName" HorizontalAlignment="Left" Height="23" Margin="127,72,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="237"/>
+        <DatePicker x:Name="dtBegin" HorizontalAlignment="Left" Margin="491,69,0,0" VerticalAlignment="Top"/>
+        <DatePicker x:Name="dtEnd" HorizontalAlignment="Left" Margin="491,97,0,0" VerticalAlignment="Top"/>
+        <Label Content="Nome Cliente:" HorizontalAlignment="Left" Margin="28,69,0,0" VerticalAlignment="Top"/>
+        <Label HorizontalAlignment="Left" Margin="407,81,0,0" VerticalAlignment="Top"/>
+        <Label Content="Data Cadastro Inicio:" HorizontalAlignment="Left" Margin="369,70,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.049,0.087"/>
+        <Label Content="Data Cadastro Fim:" HorizontalAlignment="Left" Margin="369,96,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtSegment" HorizontalAlignment="Left" Height="23" Margin="127,101,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="237"/>
+        <Label Content="Segmento:" HorizontalAlignment="Left" Margin="28,103,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.589,-0.931"/>
+        <DataGrid x:Name="grdClient" CanUserAddRows="False" HorizontalAlignment="Left" Height="184" Margin="28,187,0,0" VerticalAlignment="Top" Width="746" AutoGenerateColumns="False" ItemsSource="{Binding clientList}">
+            <DataGrid.Columns>
+                <DataGridTextColumn 
+                    x:Name="idDisplay"
+                    Binding="{Binding Path=Id}"
+                    Header="Id"
+                    IsReadOnly="True" />
+
+                <DataGridTextColumn 
+                    x:Name="nameDisplay"
+                    Binding="{Binding Path=Name}"
+                    Header="Nome"
+                    IsReadOnly="True" />
+
+                <DataGridTextColumn 
+                    x:Name="cnpjDisplay"
+                    Binding="{Binding Path=Cnpj}"
+                    Header="CPF/CNPJ"
+                    IsReadOnly="True" />
+
+                <DataGridTextColumn 
+                    x:Name="segmentDisplay"
+                    Binding="{Binding Path=Segment}"
+                    Header="Segmento"
+                    IsReadOnly="True" />
+
+                <DataGridTextColumn 
+                    x:Name="birthDateDisplay"
+                    Binding="{Binding Path=BirthDate}"
+                    Header="Data de Nascimento"
+                    IsReadOnly="True" />
+
+                <DataGridTextColumn 
+                    x:Name="creationDateDisplay"
+                    Binding="{Binding Path=CreationDate}"
+                    Header="Data de Criação"
+                    IsReadOnly="True" />
+
+                <DataGridTemplateColumn x:Name="btnEdit"
+                    MinWidth="50" >
+
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Click="BtnEditClient_Click">Editar</Button>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button x:Name="bnExcelImport" Content="Carregar Excel" HorizontalAlignment="Left" Margin="651,10,0,0" VerticalAlignment="Top" Width="123" Click="BnExcelImport_Click"/>
+
+    </Grid>
+</Window>
